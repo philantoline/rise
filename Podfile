@@ -7,6 +7,7 @@ target 'rise' do
 
   # Pods for rise
   pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
 
   target 'riseTests' do
     inherit! :search_paths
