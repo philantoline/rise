@@ -1,0 +1,6 @@
+framework module Pods_riseUITests {
+  umbrella header "Pods-riseUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
