@@ -9,8 +9,5 @@
 import Foundation
 
 class Result {
-    let firstName: String
     
 }
-
-clas

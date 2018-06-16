@@ -1,5 +1,5 @@
 //
-//  Results.swift
+//  ResultsViewController.swift
 //  rise
 //
 //  Created by Phil on 6/16/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Results: UIViewController {
+class ResultsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

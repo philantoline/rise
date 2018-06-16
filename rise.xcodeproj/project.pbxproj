@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A10881920D523F1007D43FC /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10881820D523F1007D43FC /* Results.swift */; };
-		4A10881B20D52402007D43FC /* Impulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10881A20D52402007D43FC /* Impulse.swift */; };
 		4A10881D20D5243B007D43FC /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10881C20D5243B007D43FC /* Result.swift */; };
 		4A10881F20D5245A007D43FC /* Impulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10881E20D5245A007D43FC /* Impulse.swift */; };
 		4A6960FD20D3316000DDE338 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A6960FC20D3316000DDE338 /* GoogleService-Info.plist */; };
@@ -18,6 +16,8 @@
 		4A9C033120D1C9CC003F9150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A9C032F20D1C9CC003F9150 /* LaunchScreen.storyboard */; };
 		4A9C033C20D1C9CC003F9150 /* riseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C033B20D1C9CC003F9150 /* riseTests.swift */; };
 		4A9C034720D1C9CC003F9150 /* riseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C034620D1C9CC003F9150 /* riseUITests.swift */; };
+		4AEFB9F920D52D4800CEC051 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEFB9F820D52D4800CEC051 /* ResultsViewController.swift */; };
+		4AEFB9FB20D52D5500CEC051 /* ImpulseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEFB9FA20D52D5500CEC051 /* ImpulseViewController.swift */; };
 		7BDCFFD9782840A08945B2B6 /* Pods_riseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A8BF3EA04F2F58BD2EF3C4 /* Pods_riseTests.framework */; };
 		7E1DE17B53CE8BBDA5BE4E68 /* Pods_rise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE233A2304B14374CE6EF7B /* Pods_rise.framework */; };
 		FBB36BD597D8B31D993E26D6 /* Pods_riseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACE6DD7914F967DF8AD50D2 /* Pods_riseUITests.framework */; };
@@ -46,8 +46,6 @@
 		30DBAD10041E3E9191AC9893 /* Pods-rise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rise.release.xcconfig"; path = "Pods/Target Support Files/Pods-rise/Pods-rise.release.xcconfig"; sourceTree = "<group>"; };
 		3ACE85B5FF362243C0C9983F /* Pods-riseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-riseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-riseTests/Pods-riseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		40A8BF3EA04F2F58BD2EF3C4 /* Pods_riseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_riseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A10881820D523F1007D43FC /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
-		4A10881A20D52402007D43FC /* Impulse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Impulse.swift; sourceTree = "<group>"; };
 		4A10881C20D5243B007D43FC /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		4A10881E20D5245A007D43FC /* Impulse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Impulse.swift; sourceTree = "<group>"; };
 		4A6960FC20D3316000DDE338 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -63,6 +61,8 @@
 		4A9C034220D1C9CC003F9150 /* riseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = riseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9C034620D1C9CC003F9150 /* riseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = riseUITests.swift; sourceTree = "<group>"; };
 		4A9C034820D1C9CC003F9150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AEFB9F820D52D4800CEC051 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		4AEFB9FA20D52D5500CEC051 /* ImpulseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpulseViewController.swift; sourceTree = "<group>"; };
 		5ACE6DD7914F967DF8AD50D2 /* Pods_riseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_riseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAE563089F78ED8FD36F270 /* Pods-rise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rise/Pods-rise.debug.xcconfig"; sourceTree = "<group>"; };
 		8EE233A2304B14374CE6EF7B /* Pods_rise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,8 +110,8 @@
 		4A10881620D52316007D43FC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4A10881820D523F1007D43FC /* Results.swift */,
-				4A10881A20D52402007D43FC /* Impulse.swift */,
+				4AEFB9F820D52D4800CEC051 /* ResultsViewController.swift */,
+				4AEFB9FA20D52D5500CEC051 /* ImpulseViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -428,11 +428,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A10881B20D52402007D43FC /* Impulse.swift in Sources */,
+				4AEFB9FB20D52D5500CEC051 /* ImpulseViewController.swift in Sources */,
 				4A10881F20D5245A007D43FC /* Impulse.swift in Sources */,
 				4A9C032520D1C9BF003F9150 /* AppDelegate.swift in Sources */,
 				4A10881D20D5243B007D43FC /* Result.swift in Sources */,
-				4A10881920D523F1007D43FC /* Results.swift in Sources */,
+				4AEFB9F920D52D4800CEC051 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

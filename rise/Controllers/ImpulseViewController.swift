@@ -1,5 +1,5 @@
 //
-//  Impulse.swift
+//  ImpulseViewController.swift
 //  rise
 //
 //  Created by Phil on 6/16/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Impulse: UIViewController {
+class ImpulseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
