@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A10881320D44424007D43FC /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10881220D44424007D43FC /* ResultsViewController.swift */; };
+		4A10881520D521B9007D43FC /* ImpulseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10881420D521B9007D43FC /* ImpulseViewController.swift */; };
 		4A6960FD20D3316000DDE338 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A6960FC20D3316000DDE338 /* GoogleService-Info.plist */; };
 		4A9C032520D1C9BF003F9150 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C032420D1C9BF003F9150 /* AppDelegate.swift */; };
-		4A9C032720D1C9BF003F9150 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C032620D1C9BF003F9150 /* FirstViewController.swift */; };
-		4A9C032920D1C9BF003F9150 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C032820D1C9BF003F9150 /* SecondViewController.swift */; };
 		4A9C032C20D1C9BF003F9150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A9C032A20D1C9BF003F9150 /* Main.storyboard */; };
 		4A9C032E20D1C9CC003F9150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A9C032D20D1C9CC003F9150 /* Assets.xcassets */; };
 		4A9C033120D1C9CC003F9150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A9C032F20D1C9CC003F9150 /* LaunchScreen.storyboard */; };
@@ -44,11 +44,11 @@
 		30DBAD10041E3E9191AC9893 /* Pods-rise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rise.release.xcconfig"; path = "Pods/Target Support Files/Pods-rise/Pods-rise.release.xcconfig"; sourceTree = "<group>"; };
 		3ACE85B5FF362243C0C9983F /* Pods-riseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-riseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-riseTests/Pods-riseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		40A8BF3EA04F2F58BD2EF3C4 /* Pods_riseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_riseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A10881220D44424007D43FC /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		4A10881420D521B9007D43FC /* ImpulseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpulseViewController.swift; sourceTree = "<group>"; };
 		4A6960FC20D3316000DDE338 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4A9C032120D1C9BF003F9150 /* rise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9C032420D1C9BF003F9150 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A9C032620D1C9BF003F9150 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		4A9C032820D1C9BF003F9150 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		4A9C032B20D1C9BF003F9150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A9C032D20D1C9CC003F9150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A9C033020D1C9CC003F9150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -129,8 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				4A9C032420D1C9BF003F9150 /* AppDelegate.swift */,
-				4A9C032620D1C9BF003F9150 /* FirstViewController.swift */,
-				4A9C032820D1C9BF003F9150 /* SecondViewController.swift */,
+				4A10881220D44424007D43FC /* ResultsViewController.swift */,
+				4A10881420D521B9007D43FC /* ImpulseViewController.swift */,
 				4A9C032A20D1C9BF003F9150 /* Main.storyboard */,
 				4A9C032D20D1C9CC003F9150 /* Assets.xcassets */,
 				4A9C032F20D1C9CC003F9150 /* LaunchScreen.storyboard */,
@@ -398,9 +398,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A9C032920D1C9BF003F9150 /* SecondViewController.swift in Sources */,
+				4A10881520D521B9007D43FC /* ImpulseViewController.swift in Sources */,
 				4A9C032520D1C9BF003F9150 /* AppDelegate.swift in Sources */,
-				4A9C032720D1C9BF003F9150 /* FirstViewController.swift in Sources */,
+				4A10881320D44424007D43FC /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
