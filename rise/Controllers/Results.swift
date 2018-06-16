@@ -1,14 +1,14 @@
 //
-//  ResultsViewController.swift
+//  Results.swift
 //  rise
 //
-//  Created by Phil on 6/15/18.
+//  Created by Phil on 6/16/18.
 //  Copyright © 2018 Phil Antoline. All rights reserved.
 //
 
 import UIKit
 
-class ResultsViewController: UIViewController {
+class Results: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

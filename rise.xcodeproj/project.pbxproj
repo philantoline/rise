@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A10881320D44424007D43FC /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10881220D44424007D43FC /* ResultsViewController.swift */; };
-		4A10881520D521B9007D43FC /* ImpulseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10881420D521B9007D43FC /* ImpulseViewController.swift */; };
+		4A10881920D523F1007D43FC /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10881820D523F1007D43FC /* Results.swift */; };
+		4A10881B20D52402007D43FC /* Impulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10881A20D52402007D43FC /* Impulse.swift */; };
+		4A10881D20D5243B007D43FC /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10881C20D5243B007D43FC /* Result.swift */; };
+		4A10881F20D5245A007D43FC /* Impulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10881E20D5245A007D43FC /* Impulse.swift */; };
 		4A6960FD20D3316000DDE338 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A6960FC20D3316000DDE338 /* GoogleService-Info.plist */; };
 		4A9C032520D1C9BF003F9150 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C032420D1C9BF003F9150 /* AppDelegate.swift */; };
 		4A9C032C20D1C9BF003F9150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A9C032A20D1C9BF003F9150 /* Main.storyboard */; };
@@ -44,8 +46,10 @@
 		30DBAD10041E3E9191AC9893 /* Pods-rise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rise.release.xcconfig"; path = "Pods/Target Support Files/Pods-rise/Pods-rise.release.xcconfig"; sourceTree = "<group>"; };
 		3ACE85B5FF362243C0C9983F /* Pods-riseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-riseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-riseTests/Pods-riseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		40A8BF3EA04F2F58BD2EF3C4 /* Pods_riseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_riseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A10881220D44424007D43FC /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
-		4A10881420D521B9007D43FC /* ImpulseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpulseViewController.swift; sourceTree = "<group>"; };
+		4A10881820D523F1007D43FC /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		4A10881A20D52402007D43FC /* Impulse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Impulse.swift; sourceTree = "<group>"; };
+		4A10881C20D5243B007D43FC /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		4A10881E20D5245A007D43FC /* Impulse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Impulse.swift; sourceTree = "<group>"; };
 		4A6960FC20D3316000DDE338 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4A9C032120D1C9BF003F9150 /* rise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9C032420D1C9BF003F9150 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +107,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4A10881620D52316007D43FC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4A10881820D523F1007D43FC /* Results.swift */,
+				4A10881A20D52402007D43FC /* Impulse.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4A10881720D5232F007D43FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4A10881C20D5243B007D43FC /* Result.swift */,
+				4A10881E20D5245A007D43FC /* Impulse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4A10882020D5246C007D43FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A9C032A20D1C9BF003F9150 /* Main.storyboard */,
+				4A9C032F20D1C9CC003F9150 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		4A9C031820D1C9BE003F9150 = {
 			isa = PBXGroup;
 			children = (
@@ -129,11 +160,10 @@
 			isa = PBXGroup;
 			children = (
 				4A9C032420D1C9BF003F9150 /* AppDelegate.swift */,
-				4A10881220D44424007D43FC /* ResultsViewController.swift */,
-				4A10881420D521B9007D43FC /* ImpulseViewController.swift */,
-				4A9C032A20D1C9BF003F9150 /* Main.storyboard */,
+				4A10881720D5232F007D43FC /* Models */,
+				4A10881620D52316007D43FC /* Controllers */,
+				4A10882020D5246C007D43FC /* Views */,
 				4A9C032D20D1C9CC003F9150 /* Assets.xcassets */,
-				4A9C032F20D1C9CC003F9150 /* LaunchScreen.storyboard */,
 				4A9C033220D1C9CC003F9150 /* Info.plist */,
 				4A6960FC20D3316000DDE338 /* GoogleService-Info.plist */,
 			);
@@ -398,9 +428,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A10881520D521B9007D43FC /* ImpulseViewController.swift in Sources */,
+				4A10881B20D52402007D43FC /* Impulse.swift in Sources */,
+				4A10881F20D5245A007D43FC /* Impulse.swift in Sources */,
 				4A9C032520D1C9BF003F9150 /* AppDelegate.swift in Sources */,
-				4A10881320D44424007D43FC /* ResultsViewController.swift in Sources */,
+				4A10881D20D5243B007D43FC /* Result.swift in Sources */,
+				4A10881920D523F1007D43FC /* Results.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
