@@ -1,13 +1,13 @@
 //
-//  Result.swift
+//  Day.swift
 //  rise
 //
-//  Created by Phil on 6/16/18.
+//  Created by Phillip Antoline on 6/28/18.
 //  Copyright © 2018 Phil Antoline. All rights reserved.
 //
 
 import Foundation
 
-struct Result {
+struct Day {
     
 }

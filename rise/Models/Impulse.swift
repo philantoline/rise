@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+struct Impulse {
+    let timestamp: Date
+}
