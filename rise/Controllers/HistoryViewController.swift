@@ -1,14 +1,14 @@
 //
-//  ResultsViewController.swift
+//  HistoryViewController.swift
 //  rise
 //
-//  Created by Phil on 6/16/18.
+//  Created by Phillip Antoline on 7/3/18.
 //  Copyright © 2018 Phil Antoline. All rights reserved.
 //
 
 import UIKit
 
-class ResultsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class HistoryViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +29,6 @@ class ResultsViewController: UIViewController, UITableViewDelegate, UITableViewD
         <#code#>
     }
     
-
     /*
     // MARK: - Navigation
 
