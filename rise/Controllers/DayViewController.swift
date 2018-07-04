@@ -1,14 +1,14 @@
 //
-//  ImpulseViewController.swift
+//  DayViewController.swift
 //  rise
 //
-//  Created by Phil on 6/16/18.
+//  Created by Phillip Antoline on 7/4/18.
 //  Copyright © 2018 Phil Antoline. All rights reserved.
 //
 
 import UIKit
 
-class ImpulseViewController: UIViewController {
+class DayViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +21,7 @@ class ImpulseViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+
     /*
     // MARK: - Navigation
 
