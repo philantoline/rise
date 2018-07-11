@@ -9,5 +9,5 @@
 import Foundation
 
 struct Day {
-    
+    let date: Date
 }
