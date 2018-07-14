@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="June, 25" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hk7-gs-TMR">
-                                <rect key="frame" x="101" y="200" width="173" height="58"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="June, 25" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hk7-gs-TMR">
+                                <rect key="frame" x="0.0" y="200" width="375" height="58"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="48"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -30,15 +30,15 @@
                                 <state key="normal" title="Success" image="icon-check-default"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OaL-tL-uol">
-                                <rect key="frame" x="239" y="331" width="70" height="70"/>
+                                <rect key="frame" x="219" y="331" width="70" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Fail" image="icon-times-default"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="hk7-gs-TMR" firstAttribute="leading" secondItem="oKL-j6-aJE" secondAttribute="leading" constant="101" id="Qjs-d4-jnZ"/>
-                            <constraint firstItem="oKL-j6-aJE" firstAttribute="trailing" secondItem="hk7-gs-TMR" secondAttribute="trailing" constant="101" id="uNo-KY-rqj"/>
+                            <constraint firstItem="hk7-gs-TMR" firstAttribute="leading" secondItem="4LH-gb-czE" secondAttribute="leading" id="NBq-di-aox"/>
+                            <constraint firstAttribute="trailing" secondItem="hk7-gs-TMR" secondAttribute="trailing" id="ami-Ve-Dfu"/>
                             <constraint firstItem="hk7-gs-TMR" firstAttribute="top" secondItem="oKL-j6-aJE" secondAttribute="top" constant="136" id="yWj-wX-1oU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="oKL-j6-aJE"/>
