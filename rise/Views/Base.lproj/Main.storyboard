@@ -44,6 +44,9 @@
                         <viewLayoutGuide key="safeArea" id="oKL-j6-aJE"/>
                     </view>
                     <navigationItem key="navigationItem" title="rise" id="KXi-ee-ued"/>
+                    <connections>
+                        <outlet property="dateLabel" destination="hk7-gs-TMR" id="buu-SJ-gf1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="98u-5f-uWf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

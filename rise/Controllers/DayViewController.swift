@@ -7,22 +7,49 @@
 //
 
 import UIKit
+import Firebase
 
 class DayViewController: UIViewController {
-
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(true)
-        
-        let day = Day()
-        print(day.date)
-
-        
-    }
+    
+    @IBOutlet weak var dateLabel: UILabel!
+    
+    var db: Firestore!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        // [START setup]
+        let settings = FirestoreSettings()
+        Firestore.firestore().settings = settings
+        
+        // [END setup]
+        db = Firestore.firestore()
+        
+        let day = Day()
+        
+        dateLabel.text = day.date
+        
+        let docRef = db.collection("days").document(day.dateStamp)
+        docRef.getDocument { (document, error) in
+            if let document = document, document.exists {
+                let dataDescription = document.data().map(String.init(describing:)) ?? "nil"
+                print("Document data: \(dataDescription)")
+            }
+            else {
+                self.db.collection("days").document(day.dateStamp).setData([
+                    "dateStamp": day.dateStamp,
+                    "date": day.date,
+                    "status": day.status
+                    ]) { err in
+                        if let err = err {
+                            print("Error writing document: \(err)")
+                        }
+                        else {
+                            print("Document successfully written!")
+                        }
+                }
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {

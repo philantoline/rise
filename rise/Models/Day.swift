@@ -10,24 +10,36 @@ import Foundation
 
 struct Day {
     
+    var dateStamp: String {
+        return formatDate(dateFormat: nil)
+    }
     var date: String {
-        return formatDate()
+        return formatDate(dateFormat: "MMMMd")
     }
     var impulses: [Impulse]?
-    enum Status {
-        case succeeded, failed, undetermined
+    enum Status: String {
+        case succeeded = "succeeded"
+        case failed = "failed"
+        case unknown = "unknown"
     }
-    var status = Status.undetermined
+    var status: String {
+        return Status.unknown.rawValue
+    }
     
-    func formatDate() -> String {
+    func formatDate(dateFormat: String?) -> String {
         let dateFormatter = DateFormatter()
+        dateFormatter.locale = Locale(identifier: "en_US")
+        
         let date = Date()
         
-        // US English Locale (en_US)
-        dateFormatter.locale = Locale(identifier: "en_US")
-        dateFormatter.setLocalizedDateFormatFromTemplate("MMMMd")
-
-        return dateFormatter.string(from: date)
+        switch dateFormat {
+        case "MMMMd":
+            dateFormatter.setLocalizedDateFormatFromTemplate("MMMMd")
+            return dateFormatter.string(from: date)
+        default:
+            dateFormatter.setLocalizedDateFormatFromTemplate("MMM d, yyyy") 
+            return dateFormatter.string(from: date)
+        }
     }
 
 }
