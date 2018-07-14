@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Day View Controller-->
+        <!--rise-->
         <scene sceneID="Tss-ec-EM0">
             <objects>
                 <viewController id="mB2-q0-ngd" customClass="DayViewController" customModule="rise" customModuleProvider="target" sceneMemberID="viewController">
@@ -43,7 +43,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="oKL-j6-aJE"/>
                     </view>
-                    <navigationItem key="navigationItem" id="KXi-ee-ued"/>
+                    <navigationItem key="navigationItem" title="rise" id="KXi-ee-ued"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="98u-5f-uWf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

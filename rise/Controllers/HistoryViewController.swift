@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HistoryViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class HistoryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,14 +19,6 @@ class HistoryViewController: UIViewController, UITableViewDelegate, UITableViewD
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
     }
     
     /*

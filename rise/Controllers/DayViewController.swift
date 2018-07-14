@@ -10,6 +10,15 @@ import UIKit
 
 class DayViewController: UIViewController {
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        
+        let day = Day()
+        print(day.date)
+
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
